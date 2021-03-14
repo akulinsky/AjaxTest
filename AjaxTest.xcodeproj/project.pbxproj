@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,12 @@
 		3E7011DE25FD6E6B000F97D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7011DC25FD6E6B000F97D4 /* LaunchScreen.storyboard */; };
 		3E7011E925FD6E6B000F97D4 /* AjaxTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7011E825FD6E6B000F97D4 /* AjaxTestTests.swift */; };
 		3E7011F425FD6E6B000F97D4 /* AjaxTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7011F325FD6E6B000F97D4 /* AjaxTestUITests.swift */; };
+		3E70121C25FD73ED000F97D4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70121B25FD73ED000F97D4 /* FirstViewController.swift */; };
+		3E70122125FD7526000F97D4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70122025FD7526000F97D4 /* BaseViewController.swift */; };
+		3E70122625FD8B54000F97D4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E70122525FD8B54000F97D4 /* DataManager.swift */; };
+		3F29611301650CC66A1202E4 /* Pods_AjaxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B7246A534B6A3CF8036C6F /* Pods_AjaxTest.framework */; };
+		424224DFC00CA797A202F4F9 /* Pods_AjaxTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEBF7CFC67D78354DE36583 /* Pods_AjaxTestTests.framework */; };
+		CCC0F8D19C1FC1F5E4B63611 /* Pods_AjaxTest_AjaxTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D52E2C63691A27E78F7539 /* Pods_AjaxTest_AjaxTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FE854D37D2FE07CA8F17F2E /* Pods-AjaxTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjaxTest.debug.xcconfig"; path = "Target Support Files/Pods-AjaxTest/Pods-AjaxTest.debug.xcconfig"; sourceTree = "<group>"; };
+		288D75B290B2E7C185CB018C /* Pods-AjaxTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjaxTestTests.release.xcconfig"; path = "Target Support Files/Pods-AjaxTestTests/Pods-AjaxTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		3E7011CB25FD6E6A000F97D4 /* AjaxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AjaxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7011CE25FD6E6A000F97D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E7011D025FD6E6A000F97D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,16 @@
 		3E7011EF25FD6E6B000F97D4 /* AjaxTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjaxTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7011F325FD6E6B000F97D4 /* AjaxTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjaxTestUITests.swift; sourceTree = "<group>"; };
 		3E7011F525FD6E6B000F97D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E70121B25FD73ED000F97D4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3E70122025FD7526000F97D4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3E70122525FD8B54000F97D4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4FEBF7CFC67D78354DE36583 /* Pods_AjaxTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AjaxTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D52E2C63691A27E78F7539 /* Pods_AjaxTest_AjaxTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AjaxTest_AjaxTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7279EFE705B6D988FB4E121F /* Pods-AjaxTest-AjaxTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjaxTest-AjaxTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-AjaxTest-AjaxTestUITests/Pods-AjaxTest-AjaxTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89CD11BFC6BAFF9DCD31AFA5 /* Pods-AjaxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjaxTest.release.xcconfig"; path = "Target Support Files/Pods-AjaxTest/Pods-AjaxTest.release.xcconfig"; sourceTree = "<group>"; };
+		CFC387D38F88BC69E1EC870A /* Pods-AjaxTest-AjaxTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjaxTest-AjaxTestUITests.release.xcconfig"; path = "Target Support Files/Pods-AjaxTest-AjaxTestUITests/Pods-AjaxTest-AjaxTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2B7246A534B6A3CF8036C6F /* Pods_AjaxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AjaxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDACC0AB73659680BD3DE13A /* Pods-AjaxTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjaxTestTests.debug.xcconfig"; path = "Target Support Files/Pods-AjaxTestTests/Pods-AjaxTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F29611301650CC66A1202E4 /* Pods_AjaxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424224DFC00CA797A202F4F9 /* Pods_AjaxTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC0F8D19C1FC1F5E4B63611 /* Pods_AjaxTest_AjaxTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				3E7011E725FD6E6B000F97D4 /* AjaxTestTests */,
 				3E7011F225FD6E6B000F97D4 /* AjaxTestUITests */,
 				3E7011CC25FD6E6A000F97D4 /* Products */,
+				681D63288F6B2922BDE56F5C /* Pods */,
+				B5389B889155E41ECFA02BE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +124,10 @@
 		3E7011CD25FD6E6A000F97D4 /* AjaxTest */ = {
 			isa = PBXGroup;
 			children = (
+				3E70120F25FD738C000F97D4 /* Screens */,
 				3E7011CE25FD6E6A000F97D4 /* AppDelegate.swift */,
 				3E7011D025FD6E6A000F97D4 /* SceneDelegate.swift */,
+				3E70122525FD8B54000F97D4 /* DataManager.swift */,
 				3E7011D225FD6E6A000F97D4 /* ViewController.swift */,
 				3E7011D425FD6E6A000F97D4 /* Main.storyboard */,
 				3E7011DA25FD6E6B000F97D4 /* Assets.xcassets */,
@@ -131,6 +156,38 @@
 			path = AjaxTestUITests;
 			sourceTree = "<group>";
 		};
+		3E70120F25FD738C000F97D4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3E70121B25FD73ED000F97D4 /* FirstViewController.swift */,
+				3E70122025FD7526000F97D4 /* BaseViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		681D63288F6B2922BDE56F5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FE854D37D2FE07CA8F17F2E /* Pods-AjaxTest.debug.xcconfig */,
+				89CD11BFC6BAFF9DCD31AFA5 /* Pods-AjaxTest.release.xcconfig */,
+				7279EFE705B6D988FB4E121F /* Pods-AjaxTest-AjaxTestUITests.debug.xcconfig */,
+				CFC387D38F88BC69E1EC870A /* Pods-AjaxTest-AjaxTestUITests.release.xcconfig */,
+				FDACC0AB73659680BD3DE13A /* Pods-AjaxTestTests.debug.xcconfig */,
+				288D75B290B2E7C185CB018C /* Pods-AjaxTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5389B889155E41ECFA02BE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2B7246A534B6A3CF8036C6F /* Pods_AjaxTest.framework */,
+				63D52E2C63691A27E78F7539 /* Pods_AjaxTest_AjaxTestUITests.framework */,
+				4FEBF7CFC67D78354DE36583 /* Pods_AjaxTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E7011F825FD6E6B000F97D4 /* Build configuration list for PBXNativeTarget "AjaxTest" */;
 			buildPhases = (
+				9E9D1E84D949E84123D70173 /* [CP] Check Pods Manifest.lock */,
 				3E7011C725FD6E6A000F97D4 /* Sources */,
 				3E7011C825FD6E6A000F97D4 /* Frameworks */,
 				3E7011C925FD6E6A000F97D4 /* Resources */,
+				7D711BB02B525F68AAF0273E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E7011FB25FD6E6B000F97D4 /* Build configuration list for PBXNativeTarget "AjaxTestTests" */;
 			buildPhases = (
+				4737396817D3693C028EC932 /* [CP] Check Pods Manifest.lock */,
 				3E7011E025FD6E6B000F97D4 /* Sources */,
 				3E7011E125FD6E6B000F97D4 /* Frameworks */,
 				3E7011E225FD6E6B000F97D4 /* Resources */,
@@ -173,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E7011FE25FD6E6B000F97D4 /* Build configuration list for PBXNativeTarget "AjaxTestUITests" */;
 			buildPhases = (
+				4A71625CD668F51D8170B0F0 /* [CP] Check Pods Manifest.lock */,
 				3E7011EB25FD6E6B000F97D4 /* Sources */,
 				3E7011EC25FD6E6B000F97D4 /* Frameworks */,
 				3E7011ED25FD6E6B000F97D4 /* Resources */,
+				4E94AB5C3574885C1654F2E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +318,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4737396817D3693C028EC932 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AjaxTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A71625CD668F51D8170B0F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AjaxTest-AjaxTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E94AB5C3574885C1654F2E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AjaxTest-AjaxTestUITests/Pods-AjaxTest-AjaxTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AjaxTest-AjaxTestUITests/Pods-AjaxTest-AjaxTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AjaxTest-AjaxTestUITests/Pods-AjaxTest-AjaxTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D711BB02B525F68AAF0273E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AjaxTest/Pods-AjaxTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AjaxTest/Pods-AjaxTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AjaxTest/Pods-AjaxTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E9D1E84D949E84123D70173 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AjaxTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E7011C725FD6E6A000F97D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E70121C25FD73ED000F97D4 /* FirstViewController.swift in Sources */,
 				3E7011D325FD6E6A000F97D4 /* ViewController.swift in Sources */,
 				3E7011D925FD6E6A000F97D4 /* AjaxTest.xcdatamodeld in Sources */,
+				3E70122625FD8B54000F97D4 /* DataManager.swift in Sources */,
 				3E7011CF25FD6E6A000F97D4 /* AppDelegate.swift in Sources */,
 				3E7011D125FD6E6A000F97D4 /* SceneDelegate.swift in Sources */,
+				3E70122125FD7526000F97D4 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +605,7 @@
 		};
 		3E7011F925FD6E6B000F97D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE854D37D2FE07CA8F17F2E /* Pods-AjaxTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +624,7 @@
 		};
 		3E7011FA25FD6E6B000F97D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89CD11BFC6BAFF9DCD31AFA5 /* Pods-AjaxTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +643,7 @@
 		};
 		3E7011FC25FD6E6B000F97D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDACC0AB73659680BD3DE13A /* Pods-AjaxTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +665,7 @@
 		};
 		3E7011FD25FD6E6B000F97D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288D75B290B2E7C185CB018C /* Pods-AjaxTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +687,7 @@
 		};
 		3E7011FF25FD6E6B000F97D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7279EFE705B6D988FB4E121F /* Pods-AjaxTest-AjaxTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +707,7 @@
 		};
 		3E70120025FD6E6B000F97D4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC387D38F88BC69E1EC870A /* Pods-AjaxTest-AjaxTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
